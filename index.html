@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontt -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+<!-- tail custom coloure -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script src="https://kit.fontawesome.com/353d67d59d.js" crossorigin="anonymous"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .font-manrope{
+        font-family: 'Manrope', sans-serif;
+    }
+</style>
+</head>
+
+
+<body>
+    <header class="font-manrop px-1  lg:px-24 ">
+
+        <nav>
+
+            <div class="navbar bg-base-100 ">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+      </div>
+      <ul tabindex="0" class=" menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a>Home  </a></li>
+        <li><a>About </a></li>
+        <li><a>Pages</a></li>
+        <li><a>Blog</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </div>
+    <a class="btn btn-ghost text-3xl">Hockey<span class="text-orange-600 ">'</span>s</a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+        <li class="text-orange-600"><a>Home  </a></li>
+        <li><a>About </a></li>
+        <li><a>Pages</a></li>
+        <li><a>Blog</a></li>
+        <li><a>Contact</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end flex gap-4 ">
+    <i class="  lg:visible invisible fa-solid fa-magnifying-glass"></i>
+    <button class="btn btn-error">Get Ticket</button>
+  </div>
+</div>
+        </nav>
+
+
+
+        <!-- carosule -->
+
+
+        <div class="carousel mx-1 lg:mx-24 relative">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="Images/1.png" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="Images/2.png" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="Images/3.png" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="Images/4.png" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+
+            <div class="card w-96 bg-black shadow-xl  text-white absolute lg:right-20 lg:mt-60  lg:visible invisible   ">
+                <div class="card-body">
+                    <h2 class="text-xl"> Meet all the heroes from the field </h2>
+                    <p> Hockeyleauge hero are unbetal all over the world</p>
+                  <div class="card-actions justify-end">
+                    
+                  </div>
+                </div>
+              </div>
+
+
+
+          </div>
+             <!-- paragraph -->
+
+             <div class="card w-96 bg-black shadow-xl  text-white absolute right-10 mt-5  visible lg:invisible   ">
+                <div class="card-body">
+                    <h2 class="text-xl"> Meet all the heroes from the field </h2>
+                    <p> Hockeyleauge hero are unbetal all over the world</p>
+                  <div class="card-actions justify-end">
+                    
+                  </div>
+                </div>
+              </div>
+          
+
+    </header>
+
+ <!-- mainpage    -->
+    <main class=" lg:py-8 py-40">
+        
+           
+            
+          
+            <div class="divide-y divide-dashed font-manrop px-1  lg:px-24 text-center py-10 mt-30 lg:mt-10">
+                <div></div>
+                 <h2   > <span class="font-extrabold text-4xl py-4"> Professional Hockeys Club </span><br> <span class="mb-4"> Our Professional Hockeys Club player are the most strongest player in the continent</span></h2>
+                
+                <div></div>
+              </div>
+
+              <div class="px-40 flex justify-between">
+                <div class="radial-progress text-primary " style="--value:87;" role="progressbar">87%</div>    
+                <div class="radial-progress text-primary " style="--value:95;" role="progressbar">95%</div>    
+                <div class="radial-progress text-primary " style="--value:90;" role="progressbar">90%</div>    
+                <div class="radial-progress text-primary  " style="--value:80;" role="progressbar"> 80%</div>    
+            </div>
+
+
+            <div class="divide-y divide-dashed font-manrop px-1  lg:px-24 text-center py-10 mt-30 lg:mt-10">
+                <div></div>
+                 <h2   > <span class="font-extrabold text-4xl py-4"> Program Sections </span><br> <span class="mb-4"> Our Professional Hockeys Club player are the most strongest player in the continent</span></h2>
+                
+                <div></div>
+              </div>
+
+
+
+
+
+
+        
+
+
+
+
+
+    </main>
+</body>
+
+
+</html>
