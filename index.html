@@ -562,7 +562,7 @@
 
               <!-- Get In Touch -->
 
-              <section class="container mx-auto lg:px-24 px-8 my-8 font-manrop">
+              <section class="container mx-auto lg:px-24 px-8 my-8 font-manrop  ">
 
                 <h1 class="border-dashed border-b-2"></h1>
                 <div class="">
@@ -578,24 +578,25 @@
 
               <!-- address sections -->
 
-              <section class="container mx-auto lg:px-24 px-8 my-8 font-manrop">
+              <section class="container mx-auto lg:px-24  px-2 my-2 font-manrop flex flex-col lg:flex-row  ">
 
 
-                <div class=" ">
+                <div class=" grid grid-cols-2 gap-4   border-solid border-2 p-4 mx-20">
                     <!-- div1 -->
-                    <div class="flex flex-col gap-4 border-solid border-2 pt-8 ">
-                        <div class="card w-96 bg-base-100 shadow-xl">
+                    <div class="flex flex-col gap-4 ">
+                        <div class="card w-96 bg-lime-100">
                             <div class="card-body">
                               <div class="card-actions justify-start">
                                  
                                 <i class="fa-solid fa-phone-volume text-6xl"></i>
+                                
                               </div> 
                               <p>Phone Number :</p>
                               <h2 class="text-xl font-bold" >(+62) 123-321-543</h2>
                             </div>
                           </div>
                           <!-- 2 -->
-                          <div class="card w-96 bg-base-100 shadow-xl">
+                          <div class="card card w-96  bg-red-50 ">
                             <div class="card-body">
                               <div class="card-actions justify-start">
                                 <i class="fa-regular fa-envelope text-6xl"></i>
@@ -608,7 +609,7 @@
                           </div>
                           <!-- 3 -->
 
-                          <div class="card w-96 bg-base-100 shadow-xl">
+                          <div class="card w-96  bg-teal-50 ">
                             <div class="card-body">
                               <div class="card-actions justify-start">
 
@@ -622,25 +623,143 @@
                           </div>
                      </div>
 
-                    <!-- div2 -->
+                </div>
 
-                    <div>
+                <!-- div2 -->
+                
+                <div class="lg:grid-cols-2 grid-cols-1" >
+
+                    <div class="grid lg:grid-cols-2 grid-cols-1  gap-4" >
+                        <label class="form-control w-full max-w-xs">
+                            <div class="label">
+                              <span class="text-xl font-bold"> Your Name</span>
+                              
+                            </div>
+                            <input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-xs"  />
+                            <div class="label">
+                              
+                            </div>
+                          </label>
+                          <!-- l2 -->
+                          <label class="form-control w-full max-w-xs">
+                            <div class="label">
+                              <span class="text-xl font-bold"> Your Email
+                            </span>
+                              
+                            </div>
+                            <input type="text" placeholder="Enter your email" class="input input-bordered w-full max-w-xs"  />
+                            <div class="label">
+                              
+                            </div>
+                          </label>
+
+                          <!-- l3 -->
+                          <label class="form-control w-full max-w-xs">
+                            <div class="label">
+                              <span class="text-xl font-bold"> Subject</span>
+                              
+                            </div>
+                            <input type="text" placeholder="Enter your subject" class="input input-bordered w-full max-w-xs" />
+                            <div class="label">
+                              
+                            </div>
+                          </label>
+
+                          <!-- l4 -->
+                          <label class="form-control w-full max-w-xs">
+                            <div class="label">
+                              <span class="text-xl font-bold"> Phone Number</span>
+                              
+                            </div>
+                            <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full max-w-xs"  />
+                            <div class="label">
+                              
+                            </div>
+                          </label>
+
+                         
 
                     </div>
+
+                     <!-- l5 -->
+                     <div class=" mb-8 h-[180px] lg:h-1/2">
+                        <label class="font-semibold" for="">Message</label>
+                        <textarea class="textarea textarea-bordered w-full h-full" placeholder="Write your Message"></textarea>
+                    </div>
+
+                     <div class="pt-6 w-full">
+                        <button class="btn btn-error w-full">Get Ticket</button>
+                     </div>
 
 
                 </div>
 
+                     
+
+               
+
               </section>
 
+              <section>
+                 <!-- sociall -->
+                 
+                 <div class="mt-8 bg-slate-100">
+                    <h2 class="text-3xl font-bold flex justify-center">Social Media</h2>
+
+                    <div class="flex text-2xl justify-center mt-4  gap-4">
+
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-github"></i>
 
 
- 
 
+                    </div>
+                </div>
+              </section>
 
-           
+  
 
     </main>
+
+    <footer class="footer p-10 bg-base-200 text-base-content">
+        <aside>
+            <h2 class="text-3xl font-bold">Get In Touch</h2>
+             <p class="text-xl">our company provide top quality services science 1998</p>
+             <p><i class="fa-regular fa-envelope text-xl"></i> hockeys@support.com</p>
+             <p><i class="fa-solid fa-phone-volume text-xl "> </i>(+62) 123-321-543 </p>
+             
+        </aside> 
+
+        <div class=" grid grid-cols-2 gap-32 text-xl ">
+
+            <nav class="grid grid-cols-1">
+                <h6 class="footer-title">Company</h6> 
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Leadership</a>
+                <a class="link link-hover">News & Article </a>
+                <a class="link link-hover">Legal Notice</a>
+              </nav> 
+              <nav class="grid grid-cols-1">
+                <h6 class="footer-title">Support</h6> 
+                <a class="link link-hover">Help Center</a>
+                <a class="link link-hover">FAQ</a>
+                <a class="link link-hover">Ticket Support</a>
+                <a class="link link-hover">Contact Us </a>
+              </nav> 
+        </div>
+       
+        <nav  class="text-xl grid grid-cols-1 justify-center text-center px-24 lg:px-0 lg:justify-end">
+          <h6 class="footer-title">Services</h6> 
+          <a class="link link-hover">Academy</a>
+          <a class="link link-hover">Group Lesson</a>
+          <a class="link link-hover">Private Lesson</a>
+          <a class="link link-hover">Hockeys for kids</a>
+          <a class="link link-hover">Hockeys for Adult</a>
+
+        </nav>
+      </footer>
 
 
     
